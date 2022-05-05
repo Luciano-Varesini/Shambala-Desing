@@ -1,0 +1,13 @@
+.logo1 {
+  height: 120px;
+  width: 120px;
+  border-radius: 6px; }
+
+.navbar {
+  background-image: url(./imagenes/maderaNAV.jpg);
+  background-color: #a51e09; }
+
+.nav-link {
+  font-size: 20px;
+  color: black;
+  background-color: rgba(255, 248, 220, 0.365); }
