@@ -11,3 +11,22 @@
   font-size: 20px;
   color: black;
   background-color: rgba(255, 248, 220, 0.365); }
+
+.bajo-pagina {
+  background-color: brown;
+  width: 50px;
+  background-image: url(./imagenes/maderaclara.jpg); }
+
+.footer-logo {
+  width: 15%; }
+
+.footer-logo {
+  display: flex;
+  justify-content: space-evenly; }
+
+.footer-contacto {
+  border: solid 1px;
+  border-radius: 6px; }
+
+.iconos {
+  bottom: 30px; }
