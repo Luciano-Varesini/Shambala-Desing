@@ -14,4 +14,5 @@
     font-size: 20px;
     color: black;
     background-color: rgba(255, 248, 220, 0.365);
+    font-size: map-get($tamaño-tipografia, subtitulos );
 }

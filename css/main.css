@@ -1,3 +1,9 @@
+@charset "UTF-8";
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .logo1 {
   height: 120px;
   width: 120px;
@@ -10,7 +16,8 @@
 .nav-link {
   font-size: 20px;
   color: black;
-  background-color: rgba(255, 248, 220, 0.365); }
+  background-color: rgba(255, 248, 220, 0.365);
+  font-size: 20px; }
 
 .bajo-pagina {
   background-color: brown;
@@ -30,3 +37,17 @@
 
 .iconos {
   bottom: 30px; }
+
+.imagen1 {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: column;
+  direction: flex-start; }
+
+.textohindex {
+  margin-top: 20%; }
+
+.parrafo {
+  font-size: map-get tamaño-tipografia, parrafos; }

@@ -1,0 +1,18 @@
+
+.imagen1{
+    width: 350px;
+    height: 350px;
+    @include flexbox (flex-start, center, column)
+    
+}
+.textohindex{
+    margin-top: 20%;
+
+
+}
+.inicio{
+    @extend %flex_center;
+}
+.parrafo{
+    font-size: map-get ( tamaño-tipografia,parrafos  );
+}

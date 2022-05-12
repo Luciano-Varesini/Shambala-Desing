@@ -1,1 +1,21 @@
 $color-principal:rgb(165, 30, 9);
+
+$tamaño-tipografia:(
+    titulos: 24px,
+    subtitulos: 20px,
+    parrafos: 14px,
+    letrachica:12px
+);
+
+
+%flex_center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flexbox ($direction, $justify, $algin) {
+    display: flex;
+    justify-content: $justify ;
+    align-items: $algin ;
+    direction: $direction ;
+}
