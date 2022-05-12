@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.inicio {
+.inicio, .mueble2 {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -10,7 +10,7 @@
   border-radius: 6px; }
 
 .navbar {
-  background-image: url(./imagenes/maderaNAV.jpg);
+  background-image: url(../../imagenes/maderaNAV.jpg);
   background-color: #a51e09; }
 
 .nav-link {
@@ -22,7 +22,7 @@
 .bajo-pagina {
   background-color: brown;
   width: 50px;
-  background-image: url(./imagenes/maderaclara.jpg); }
+  background-image: url(../../imagenes/maderaclara.jpg); }
 
 .footer-logo {
   width: 15%; }
@@ -51,3 +51,7 @@
 
 .parrafo {
   font-size: map-get tamaño-tipografia, parrafos; }
+
+.mueble2 {
+  width: 500px;
+  height: 500px; }
