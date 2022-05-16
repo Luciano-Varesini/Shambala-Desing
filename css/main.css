@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.inicio, .mueble2 {
+.inicio, .mesa1 {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -52,6 +52,7 @@
 .parrafo {
   font-size: map-get tamaño-tipografia, parrafos; }
 
-.mueble2 {
-  width: 500px;
-  height: 500px; }
+.mesa1 {
+  height: 250px;
+  width: 1000px;
+  margin-left: 30%; }

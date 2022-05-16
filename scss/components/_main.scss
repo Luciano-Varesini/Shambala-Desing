@@ -17,6 +17,8 @@
     font-size: map-get ( tamaño-tipografia,parrafos  );
 }
 .mesa1{
-    height: 500px;
-    width: 100px ;
+    height: 250px;
+    width: 1000px ;
+    @extend %flex_center;
+    margin-left: 30%;
 }
